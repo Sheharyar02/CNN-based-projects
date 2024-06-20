@@ -1,5 +1,7 @@
-Cats and dogs pic
-Cat1.jpg
-Dog1.jpg
-Kitty image.jpeg
-Game.py
+# Ignore all files
+*
+
+# Exceptions: Specify the files you want to keep tracked
+!Cats-vs-Dogs.ipynb
+!cats_vs_dogs_model.h5
+!ml_env
