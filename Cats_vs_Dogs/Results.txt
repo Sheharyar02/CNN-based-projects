@@ -1,0 +1,21 @@
+This is a file designed to study the effects of each layer brings to the model 
+
+BASE MODEL:
+    Check Cats_vs_dogs_base_model.h5
+    accuracy: 0.9313 - loss: 0.1688 - val_accuracy: 0.9341 - val_loss: 0.1663
+    for 30 epochs
+    model = Sequential([
+    Conv2D(32, (3, 3), activation='relu', input_shape=(128, 128, 3)),
+    MaxPooling2D(2, 2),
+    Conv2D(64, (3, 3), activation='relu'),
+    MaxPooling2D(2, 2),
+    Conv2D(128, (3, 3), activation='relu'),
+    MaxPooling2D(2, 2),
+    Conv2D(128, (3, 3), activation='relu'),
+    MaxPooling2D(2, 2),
+    Flatten(),
+    Dense(512, activation='relu'),
+    Dropout(0.5),
+    Dense(1, activation='sigmoid')
+    ])
+
