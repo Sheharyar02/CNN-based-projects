@@ -1,3 +1,5 @@
+Hey there Join me on my journey as I explore CNN and its domains
+
 THIS REPO is designed to explore CNN and its approaches. It also serves as a mean for you to question why something is there and other issues you can face:
   
   Examples:
