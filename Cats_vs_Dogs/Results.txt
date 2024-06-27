@@ -19,3 +19,6 @@ BASE MODEL:
     Dense(1, activation='sigmoid')
     ])
 
+
+1 - Issue faced ; If I remove all the MaxPooling2D layers the terminal stucks ? that is it takes huge amount
+    of time to process ? ---- Any idea?
