@@ -1,0 +1,21 @@
+Notes : Approaches found or used:
+
+	Data Loading:
+		Downloaded Dataset:
+			Follow trend:
+				Dataset:
+					class1
+					class2
+					   :
+					   .
+					classn
+		For this use the following;
+                        from tensorflow.keras.preprocessing import image_dataset_from_directory
+
+                        # Load the full dataset
+                        full_dataset = image_dataset_from_directory( 
+                        dataset_path,
+                        image_size=(128, 128),
+                        batch_size=32,
+                        shuffle=True
+                        )
