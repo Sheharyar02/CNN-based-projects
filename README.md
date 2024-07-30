@@ -8,4 +8,9 @@ THIS REPO is designed to explore CNN and its approaches. It also serves as a mea
   2) If we remove this layer what effects does it cause and how adding more effects results
 
 
+
+I will be developing basic approaches for beginner and follow me as I progress
+
 Feel free to fork it if needed and any suggestions or questions feel free to reach out to me at sheharyarfaisal1@gmail.com
+
+
